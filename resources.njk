@@ -1,0 +1,17 @@
+{% set blox = htmlWebpackPlugin.options.blox %}
+{% set title = blox.page.title %}
+
+{% extends "layout/layout.njk" %}
+
+{% block content %}
+    <section class="container pt-5 pb-8">
+        <h1 class="py-5">Resources</h1>
+        <p class="lead mw-800">We have put together a number of resources to help guide you through your recovery period. These start with our free, no-obligation Burnout Quiz 
+        and lead to community support through our Facebook group. Keep an eye out for more resources coming soon!</p>
+        {% include "packages/partials/blox.partial-package.resources/blox.partial.downloads.quiz/downloads.njk" %}
+        <div class="text-center">
+            <a class="btn btn-link" href="/quiz/" role="button">Take Quiz For Personalised Resources
+            <img class="ml-2" src="{{ blox.page.path }}assets/images/arrow-icon.svg" alt="" width="30px"/></a>
+        </div>
+    </section>
+{% endblock %}
