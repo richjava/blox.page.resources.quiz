@@ -2,6 +2,8 @@
 
 A [Building Blox](https://github.com/Building-Blox/building-blox) resources page.
 
+![Resources Page](https://building-blox.s3.amazonaws.com/quiz/resources-page.PNG)
+
 ## Features
 - Bio section
 
